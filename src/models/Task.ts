@@ -18,9 +18,6 @@ export enum TaskStatus {
 
 @Table({ timestamps: true, tableName: "tasks" })
 export class Task extends Model {
-  @Column
-  fullName: string;
-
   @AllowNull(false)
   @Column(DataType.STRING)
   title: string;
