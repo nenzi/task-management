@@ -1,4 +1,4 @@
-# Project Name
+# Task Management Assessment
 
 ## 📌 Overview
 This project is a backend application built with Node.js, Express, Sequelize, and TypeScript. It provides authentication, task management, and OTP verification.
