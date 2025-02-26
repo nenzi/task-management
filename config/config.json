@@ -1,23 +1,41 @@
 {
   "development": {
-    "username": "chinonsookebugwu",
-    "password": "@Nonenzy01",
-    "database": "task_management",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "task_management_kxz1_user",
+    "password": "aXPhUbouIG4hmirB6PzhKJfRcnmL0kse",
+    "database": "task_management_kxz1",
+    "host": "dpg-cuvkrm8gph6c73eu69eg-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
-    "username": "chinonsookebugwu",
-    "password": "@Nonenzy01",
-    "database": "task_management",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "task_management_kxz1_user",
+    "password": "aXPhUbouIG4hmirB6PzhKJfRcnmL0kse",
+    "database": "task_management_kxz1",
+    "host": "dpg-cuvkrm8gph6c73eu69eg-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "production": {
-    "username": "chinonsookebugwu",
-    "password": "@Nonenzy01",
-    "database": "task_management",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "task_management_kxz1_user",
+    "password": "aXPhUbouIG4hmirB6PzhKJfRcnmL0kse",
+    "database": "task_management_kxz1",
+    "host": "dpg-cuvkrm8gph6c73eu69eg-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }

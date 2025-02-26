@@ -14,7 +14,12 @@ const sequelize = new Sequelize(config.DB_LINK, {
   port: config.DB_PORT,
   dialect: "postgres",
   logging: false,
-  dialectOptions: {},
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    },
+  },
   models: [User, Otp, Task],
 });
 
