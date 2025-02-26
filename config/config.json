@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "chinonsookebugwu",
+    "password": "@Nonenzy01",
+    "database": "task_management",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "chinonsookebugwu",
+    "password": "@Nonenzy01",
+    "database": "task_management",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "chinonsookebugwu",
+    "password": "@Nonenzy01",
+    "database": "task_management",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
