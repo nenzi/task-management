@@ -20,6 +20,10 @@ import {
 
 export const api = Router();
 
+api.get("/", (req, res) => {
+  res.status(200).json({ message: "Welcome to Express!" });
+});
+
 api.post("/register", userRouteValidation("/register"), register);
 api.post("/login", userRouteValidation("/login"), login);
 api.post("/send-otp", userRouteValidation("/send-otp"), sendOneTimePassword);

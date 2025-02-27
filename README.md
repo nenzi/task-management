@@ -26,6 +26,10 @@ This project is a backend application built with Node.js, Express, Sequelize, an
    ```bash
    npm run start
    
+6. Test Application
+   ```bash
+   npm test
+   
 ## 📄 Environment Variables 
 
 	•	The .env file has been included in the repository for testing purposes.

@@ -198,12 +198,15 @@ const users = (method: string): any => {
 
     case "/task/update": {
       return [
-        body("title").not().isEmpty().isString().withMessage("title required"),
-        body("description")
-          .not()
-          .isEmpty()
+        body("title")
+          .optional()
           .isString()
-          .withMessage("title required"),
+          .withMessage("Title must be a string"),
+
+        body("description")
+          .optional()
+          .isString()
+          .withMessage("Description must be a string"),
       ];
     }
 

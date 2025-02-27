@@ -21,8 +21,10 @@ initDB();
 app.all("*", isAuthorized);
 app.use(api);
 
-app.listen(process.env.PORT, async () => {
-  console.log(
-    `Server started on port ${process.env.BASEURL}:${process.env.PORT || 4000}`,
-  );
-});
+// app.listen(process.env.PORT, async () => {
+//   console.log(
+//     `Server started on port ${process.env.BASEURL}:${process.env.PORT || 4000}`,
+//   );
+// });
+
+export default app;
