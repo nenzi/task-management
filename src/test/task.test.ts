@@ -2,8 +2,9 @@ import request from "supertest";
 import app from "../main";
 import { TaskServices } from "../services/task.services";
 import { client } from "../services/redis";
+import { initDB } from "../database";
 
-jest.setTimeout(20000);
+jest.setTimeout(30000);
 
 jest.mock("../services/task.services");
 
@@ -11,6 +12,7 @@ describe("Task Controller", () => {
   let authToken: string;
   let id = Math.floor(Math.random() * 1000);
   beforeAll(async () => {
+    await initDB();
     const loginRes = await request(app)
       .post("/login")
       .send({ email: "nonenzy01+test@gmail.com", password: "@Nonenzy01" });
