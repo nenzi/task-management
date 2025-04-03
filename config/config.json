@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "task_management_kxz1_user",
-    "password": "aXPhUbouIG4hmirB6PzhKJfRcnmL0kse",
-    "database": "task_management_kxz1",
-    "host": "dpg-cuvkrm8gph6c73eu69eg-a.oregon-postgres.render.com",
+    "username": "postgres",
+    "password": "mpty7hGhMJzB9xeliIBh",
+    "database": "task_management_db",
+    "host": "task-management.c0h20mywy2b9.us-east-1.rds.amazonaws.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
@@ -13,10 +13,10 @@
     }
   },
   "test": {
-    "username": "task_management_kxz1_user",
-    "password": "aXPhUbouIG4hmirB6PzhKJfRcnmL0kse",
-    "database": "task_management_kxz1",
-    "host": "dpg-cuvkrm8gph6c73eu69eg-a.oregon-postgres.render.com",
+    "username": "postgres",
+    "password": "mpty7hGhMJzB9xeliIBh",
+    "database": "task_management_db",
+    "host": "task-management.c0h20mywy2b9.us-east-1.rds.amazonaws.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
@@ -26,10 +26,10 @@
     }
   },
   "production": {
-    "username": "task_management_kxz1_user",
-    "password": "aXPhUbouIG4hmirB6PzhKJfRcnmL0kse",
-    "database": "task_management_kxz1",
-    "host": "dpg-cuvkrm8gph6c73eu69eg-a.oregon-postgres.render.com",
+    "username": "postgres",
+    "password": "mpty7hGhMJzB9xeliIBh",
+    "database": "task_management_db",
+    "host": "task-management.c0h20mywy2b9.us-east-1.rds.amazonaws.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
